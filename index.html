@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>WebPlay | Offline Music Player</title>
+    <link rel="shortcut icon" href="assets/ico/Music_Icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/styles.min.css">
+</head>
+
+<body>
+    <div class="music-box">
+        <div class="music-playerBox">
+            <div class="music-player">
+                <div class="player-header">
+                    <h1>Music Player</h1>
+                    <div class="fileInput">
+                        <input type="file" id="file-input" multiple accept=".mp3, .wav, .ogg, .aac, .m4a, .mp4, .webm">
+                    </div>
+                </div>
+                <div class="music-contBox">
+                    <div class="music-titleBox">
+                        <div class="scrolling-wrapper">
+                            <p id="currentTrackTitle"></p>
+                        </div>
+                        <p id="currentTrackArtist"></p>
+                    </div>
+                    <div class="music-thumb">
+                        <img id="currentTrackImage" src="assets/ico/Music_Icon.svg" alt="Current Track Image" width="300px">
+                    </div>
+                    <div class="music-playing-bars">
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <button id="prev" class="control-button"></button>
+                    <button id="play" class="control-button"></button>
+                    <button id="pause" class="control-button" style="display: none;"></button>
+                    <button id="next" class="control-button"></button>
+
+                    <div class="ctrl-btn">
+                        <label>
+                            <input type="checkbox" id="repeatButton">
+                            <span class="icon" id="repeatOnebtn"></span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="autoPlayButton">
+                            <span class="icon" id="AutoPlaybtn"></span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="musicAnimation">
+                            <span class="icon" id="animationBtn"></span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="fullscreenButton">
+                            <span class="icon" id="fullscreenIcon"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <span id="current-time">00:00</span>
+                    <input type="range" id="progress" min="0" max="100" value="0">
+                    <span id="duration">00:00</span>
+                </div>
+
+                <div class="volume-container">
+                    <div class="volProg">
+                        <div class="slider">
+                            <input type="range" class="level" id="volume" min="0" max="1" step="0.01" value="0.5">
+                            <div class="SpeakerBtn"></div>
+                        </div>
+                    </div>
+                    <label for="volume"><span id="volumeDisplay"></span></label>
+                </div>
+                <div id="playingListMenu"></div>
+            </div>
+        </div>
+        <div class="playingList">
+            <div class="music-playing-style">
+                <div class="now playing" id="music">
+                    <span class="bar n1"></span>
+                    <span class="bar n2"></span>
+                    <span class="bar n3"></span>
+                    <span class="bar n4"></span>
+                    <span class="bar n5"></span>
+                    <span class="bar n6"></span>
+                    <span class="bar n7"></span>
+                    <span class="bar n8"></span>
+                </div>
+            </div>
+            <div class="main" id="main">
+                <div class="currentplaying">
+                    <div class="currentplayingIcon"></div>
+                    <p class="heading">Currently Playing</p>
+                </div>
+                <div class="songs">
+                    <div id="music-list" class="music-list"></div>
+                </div>
+            </div>
+        </div>
+        <audio id="audio"></audio>
+    </div>
+    <script src="src/js/app.min.js"></script>
+    <script src="src/js/jsmediatags.min.js"></script>
+</body>
+
+</html>
