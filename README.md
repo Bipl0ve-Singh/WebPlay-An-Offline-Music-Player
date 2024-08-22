@@ -17,7 +17,7 @@ Get a glimpse of WebPlay in action with the demo below:
 
 ## 🌐 Try It Live
 
-Experience WebPlay directly in your browser by visiting our [live demo](https://bipl0ve-singh.github.io/WebPlay-An-Offline-Music-Player/) 🔗. Explore its features, create playlists, and enjoy your music seamlessly.
+Experience WebPlay directly in your browser by visiting our [live demo](https://absqode.github.io/WebPlay-An-Offline-Music-Player/) 🔗. Explore its features, create playlists, and enjoy your music seamlessly.
 
 ## 📱 View on Different Devices
 
@@ -56,7 +56,7 @@ WebPlay combines a clean, modern aesthetic with user-friendly navigation. The pl
 
 ## 🚀 Getting Started
 
-1. **Download WebPlay**: [Download](https://github.com/Bipl0ve-Singh/WebPlay-An-Offline-Music-Player/archive/refs/heads/WebPlay.zip)
+1. **Download WebPlay**: [Download](https://github.com/absqode/WebPlay-An-Offline-Music-Player/archive/refs/heads/WebPlay.zip)
 2. **Open in Browser**: Simply open the downloaded file in your favorite web browser.
 3. **Add Your Music**: Drag and drop your music files into the player.
 4. **Create Playlists**: Organize your music with custom playlists.
@@ -71,10 +71,10 @@ WebPlay is designed to offer a hassle-free, immersive music experience without t
 ### v1.0.5 (August 22, 2024)
 - **New multimedia support**: You can now play video and audio files directly within the application. Supported formats include MP4, WEBM, MP3, OGG, ACC, M4A and WAV.
 
-For a complete list of changes, visit the [Releases](https://github.com/Bipl0ve-Singh/WebPlay-An-Offline-Music-Player/releases/) page.
+For a complete list of changes, visit the [Releases](https://github.com/absqode/WebPlay-An-Offline-Music-Player/releases/) page.
 
 ## 📢 For More Information
 
-For more information and updates, visit my [Repository](https://github.com/Bipl0ve-Singh/WebPlay-An-Offline-Music-Player) or follow me on [GitHub](https://github.com/Bipl0ve-Singh).
+For more information and updates, visit my [Repository](https://github.com/absqode/WebPlay-An-Offline-Music-Player) or follow me on [GitHub](https://github.com/absqode).
 
 Happy Listening! 🎶
