@@ -6,7 +6,7 @@
 
 ## 📦 Current Version
 
-- **Version**: **1.0.0**
+- **Version**: **1.0.5**
 - **Release Date**: **August 22, 2024**
 
 ## 🎬 Overview
