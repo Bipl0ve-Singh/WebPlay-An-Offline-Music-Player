@@ -15,7 +15,7 @@ Permission is granted to use, copy, and modify this software strictly for person
 5. **No Warranty**: The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
 
 For any questions or clarifications regarding the use of this software, please contact Biplove Singh on GitHub:  
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue)]([https://github.com/[YourGitHubUsername]](https://github.com/Bipl0ve-Singh))
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue)](https://github.com/absqode/)
 
 ---
 
