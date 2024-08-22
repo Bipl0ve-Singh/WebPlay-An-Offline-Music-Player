@@ -66,6 +66,13 @@ WebPlay combines a clean, modern aesthetic with user-friendly navigation. The pl
 
 WebPlay is designed to offer a hassle-free, immersive music experience without the constraints of online streaming. It's perfect for those who want a personal touch to their music collection and prefer not to rely on an internet connection.
 
+## Recent Updates
+
+### v1.0.5 (August 22, 2024)
+- **New multimedia support**: You can now play video and audio files directly within the application. Supported formats include MP4, WEBM, MP3, OGG, ACC, M4A and WAV.
+
+For a complete list of changes, visit the [Releases](https://github.com/Bipl0ve-Singh/WebPlay-An-Offline-Music-Player/releases/) page.
+
 ## 📢 For More Information
 
 For more information and updates, visit my [Repository](https://github.com/Bipl0ve-Singh/WebPlay-An-Offline-Music-Player) or follow me on [GitHub](https://github.com/Bipl0ve-Singh).
